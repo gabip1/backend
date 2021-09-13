@@ -20,7 +20,7 @@ import zti.crud.exception.ResourceNotFoundException;
 import zti.crud.model.Movies;
 import zti.crud.repository.MoviesRepository;
 
-@CrossOrigin(origins = "http://frontend-movie-app.herokuapp.com/")
+@CrossOrigin(origins = "https://frontend-movie-app.herokuapp.com/")
 @RestController
 @RequestMapping("/api/v1/")
 
