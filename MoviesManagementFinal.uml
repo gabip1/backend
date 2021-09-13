@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Persistency="http:///schemas/Persistency/NS/0" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/Persistency/NS/0 pathmap://PERSISTENCY_PROFILES/Persistency.profile.uml#Persistency_2-Annotation-Persistency http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_3IzwcA_JEeyYCo3wDrP2bg" name="MoviesManagementFinal">
+    <eAnnotations xmi:id="_3zvj0A_JEeyYCo3wDrP2bg" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_3zvj0Q_JEeyYCo3wDrP2bg" source="codegen">
+        <details xmi:id="_3zwK4A_JEeyYCo3wDrP2bg" key="codegenDirectory" value="/MoviesManagementFinal/src/main/java"/>
+        <details xmi:id="_6cGGIA_JEeyYCo3wDrP2bg" key="AssociatedSourceCode" value="/MoviesManagementFinal/.mvn/wrapper/MavenWrapperDownloader.java;1035578600/1;/MoviesManagementFinal/src/main/java/zti/crud/MoviesManagementFinalApplication.java;4236218250/1;/MoviesManagementFinal/src/main/java/zti/crud/controller/MoviesController.java;1889265791/1;/MoviesManagementFinal/src/main/java/zti/crud/exception/ResourceNotFoundException.java;1843918521/1;/MoviesManagementFinal/src/main/java/zti/crud/model/Movies.java;3038299053/1;/MoviesManagementFinal/src/main/java/zti/crud/repository/MoviesRepository.java;863117777/1;/MoviesManagementFinal/src/test/java/zti/crud/MoviesManagementFinalApplicationTests.java;4289095514/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_5VYVsA_JEeyYCo3wDrP2bg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_5VaK4A_JEeyYCo3wDrP2bg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_5Vax8A_JEeyYCo3wDrP2bg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_5VcnIA_JEeyYCo3wDrP2bg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_5Vd1QA_JEeyYCo3wDrP2bg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_5Vd1QQ_JEeyYCo3wDrP2bg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_5Vd1Qg_JEeyYCo3wDrP2bg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_5VecUA_JEeyYCo3wDrP2bg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_5VfqcA_JEeyYCo3wDrP2bg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_5S30QA_JEeyYCo3wDrP2bg" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_5TAXIA_JEeyYCo3wDrP2bg" name="net"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_5TF2sA_JEeyYCo3wDrP2bg" name="io"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_5THE0A_JEeyYCo3wDrP2bg" name="nio">
+        <packagedElement xmi:type="uml:Package" xmi:id="_5THE0Q_JEeyYCo3wDrP2bg" name="channels">
+          <packagedElement xmi:type="uml:Class" xmi:id="_5mBZwA_JEeyYCo3wDrP2bg" name="File"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_5mLKwQ_JEeyYCo3wDrP2bg" name="Exception"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_5TKIIA_JEeyYCo3wDrP2bg" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_5fIuoA_JEeyYCo3wDrP2bg" name="Properties"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_5gYEwA_JEeyYCo3wDrP2bg" name="HashMap"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_5gnVUA_JEeyYCo3wDrP2bg" name="List"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_5hCMEA_JEeyYCo3wDrP2bg" name="Map"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_5mjlQA_JEeyYCo3wDrP2bg" name="lang">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_5mjlQQ_JEeyYCo3wDrP2bg" name="Long"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_5nL3YA_JEeyYCo3wDrP2bg" name="RuntimeException"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_5TT5IA_JEeyYCo3wDrP2bg" name="zti">
+      <packagedElement xmi:type="uml:Package" xmi:id="_5TW8cA_JEeyYCo3wDrP2bg" name="crud">
+        <packagedElement xmi:type="uml:Package" xmi:id="_5Tb08A_JEeyYCo3wDrP2bg" name="exception">
+          <packagedElement xmi:type="uml:Class" xmi:id="_5WfI8A_JEeyYCo3wDrP2bg" name="ResourceNotFoundException">
+            <generalization xmi:id="_5neLQA_JEeyYCo3wDrP2bg" general="_5nL3YA_JEeyYCo3wDrP2bg"/>
+            <ownedAttribute xmi:id="_5nxtQA_JEeyYCo3wDrP2bg" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_5nyUUA_JEeyYCo3wDrP2bg" value="1L"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_5oqeEA_JEeyYCo3wDrP2bg" name="ResourceNotFoundException" specification="_5WhlMA_JEeyYCo3wDrP2bg">
+              <ownedParameter xmi:id="_5oqeEQ_JEeyYCo3wDrP2bg" name="message">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_5oqeEg_JEeyYCo3wDrP2bg" type="_5WfI8A_JEeyYCo3wDrP2bg" direction="return"/>
+              <language>java</language>
+              <body>super(message);&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_5WhlMA_JEeyYCo3wDrP2bg" name="ResourceNotFoundException" method="_5oqeEA_JEeyYCo3wDrP2bg">
+              <eAnnotations xmi:id="_5WhlMg_JEeyYCo3wDrP2bg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_5XJ3UA_JEeyYCo3wDrP2bg" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_5WhlMQ_JEeyYCo3wDrP2bg" name="message">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_5XJ3UQ_JEeyYCo3wDrP2bg" type="_5WfI8A_JEeyYCo3wDrP2bg" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_5TccAA_JEeyYCo3wDrP2bg" name="model">
+          <packagedElement xmi:type="uml:Class" xmi:id="_5XOIwA_JEeyYCo3wDrP2bg" name="Movies">
+            <ownedAttribute xmi:id="_5ny7YA_JEeyYCo3wDrP2bg" name="id">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_5n1-sA_JEeyYCo3wDrP2bg" name="title">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_5n-hkA_JEeyYCo3wDrP2bg" name="director">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_5oHEcA_JEeyYCo3wDrP2bg" name="genre">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_5orFIA_JEeyYCo3wDrP2bg" name="Movies" specification="_5Xf1kA_JEeyYCo3wDrP2bg">
+              <ownedParameter xmi:id="_5orFIQ_JEeyYCo3wDrP2bg" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_5orFIg_JEeyYCo3wDrP2bg" name="title">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_5orFIw_JEeyYCo3wDrP2bg" name="director">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_5orFJA_JEeyYCo3wDrP2bg" name="genre">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_5orFJQ_JEeyYCo3wDrP2bg" type="_5XOIwA_JEeyYCo3wDrP2bg" direction="return"/>
+              <language>java</language>
+              <body>super();&#xD;
+		this.id = id;&#xD;
+		this.title = title;&#xD;
+		this.director = director;&#xD;
+		this.genre = genre;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_5XbkIA_JEeyYCo3wDrP2bg" name="Movies">
+              <eAnnotations xmi:id="_5XcLMA_JEeyYCo3wDrP2bg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_5XcLMQ_JEeyYCo3wDrP2bg" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_5XcyQQ_JEeyYCo3wDrP2bg" type="_5XOIwA_JEeyYCo3wDrP2bg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_5Xf1kA_JEeyYCo3wDrP2bg" name="Movies" method="_5orFIA_JEeyYCo3wDrP2bg">
+              <eAnnotations xmi:id="_5XhDsA_JEeyYCo3wDrP2bg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_5XhDsQ_JEeyYCo3wDrP2bg" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_5XgcoA_JEeyYCo3wDrP2bg" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_5XgcoQ_JEeyYCo3wDrP2bg" name="title">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_5Xgcog_JEeyYCo3wDrP2bg" name="director">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_5Xgcow_JEeyYCo3wDrP2bg" name="genre">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_5XhDsg_JEeyYCo3wDrP2bg" type="_5XOIwA_JEeyYCo3wDrP2bg" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_5TdDEA_JEeyYCo3wDrP2bg" name="repository">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_5XrbwA_JEeyYCo3wDrP2bg" name="MoviesRepository">
+            <generalization xmi:id="_5nhOkA_JEeyYCo3wDrP2bg" general="_5lZusA_JEeyYCo3wDrP2bg"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_5TpQUA_JEeyYCo3wDrP2bg" name="controller">
+          <packagedElement xmi:type="uml:Class" xmi:id="_5VwwMQ_JEeyYCo3wDrP2bg" name="MoviesController">
+            <ownedAttribute xmi:id="_5nwfIA_JEeyYCo3wDrP2bg" name="moviesRepository" visibility="private" type="_5XrbwA_JEeyYCo3wDrP2bg" association="_5ozoAA_JEeyYCo3wDrP2bg"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_5ooB0A_JEeyYCo3wDrP2bg" name="getAllMovies" specification="_5VylYA_JEeyYCo3wDrP2bg">
+              <ownedParameter xmi:id="_5ooB0Q_JEeyYCo3wDrP2bg" type="_5XOIwA_JEeyYCo3wDrP2bg" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5ooB0g_JEeyYCo3wDrP2bg" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return moviesRepository.findAll();&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_5ooo4A_JEeyYCo3wDrP2bg" name="createMovie" specification="_5j6g8A_JEeyYCo3wDrP2bg">
+              <ownedParameter xmi:id="_5ooo4Q_JEeyYCo3wDrP2bg" name="movie" type="_5XOIwA_JEeyYCo3wDrP2bg"/>
+              <ownedParameter xmi:id="_5ooo4g_JEeyYCo3wDrP2bg" type="_5XOIwA_JEeyYCo3wDrP2bg" direction="return"/>
+              <language>java</language>
+              <body>return moviesRepository.save(movie);&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_5opP8A_JEeyYCo3wDrP2bg" name="getMovieById" specification="_5msIIQ_JEeyYCo3wDrP2bg">
+              <ownedParameter xmi:id="_5opP8Q_JEeyYCo3wDrP2bg" name="id" type="_5mjlQQ_JEeyYCo3wDrP2bg"/>
+              <ownedParameter xmi:id="_5opP8g_JEeyYCo3wDrP2bg" type="_5hb0sA_JEeyYCo3wDrP2bg" direction="return"/>
+              <language>java</language>
+              <body>Movies movie = moviesRepository.findById(id)&#xD;
+				.orElseThrow(() -> new ResourceNotFoundException(&quot;Movie doesn't exist with id: &quot; + id));&#xD;
+		return ResponseEntity.ok(movie);&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_5opP8w_JEeyYCo3wDrP2bg" name="updateMovie" specification="_5m3HQA_JEeyYCo3wDrP2bg">
+              <ownedParameter xmi:id="_5opP9A_JEeyYCo3wDrP2bg" name="id" type="_5mjlQQ_JEeyYCo3wDrP2bg"/>
+              <ownedParameter xmi:id="_5opP9Q_JEeyYCo3wDrP2bg" name="movieDetails" type="_5XOIwA_JEeyYCo3wDrP2bg"/>
+              <ownedParameter xmi:id="_5opP9g_JEeyYCo3wDrP2bg" type="_5hb0sA_JEeyYCo3wDrP2bg" direction="return"/>
+              <language>java</language>
+              <body>Movies movie = moviesRepository.findById(id)&#xD;
+				.orElseThrow(() -> new ResourceNotFoundException(&quot;Movie doesn't exist with id: &quot; + id));&#xD;
+&#xD;
+		movie.setTitle(movieDetails.getTitle());&#xD;
+		movie.setDirector(movieDetails.getDirector());&#xD;
+		movie.setGenre(movieDetails.getGenre());&#xD;
+&#xD;
+		Movies updatedMovie = moviesRepository.save(movie);&#xD;
+		return ResponseEntity.ok(updatedMovie);&#xD;
+&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_5op3AA_JEeyYCo3wDrP2bg" name="deleteMovie" specification="_5nBfUA_JEeyYCo3wDrP2bg">
+              <ownedParameter xmi:id="_5op3AQ_JEeyYCo3wDrP2bg" name="id" type="_5mjlQQ_JEeyYCo3wDrP2bg"/>
+              <ownedParameter xmi:id="_5op3Ag_JEeyYCo3wDrP2bg" type="_5hb0sA_JEeyYCo3wDrP2bg" direction="return"/>
+              <language>java</language>
+              <body>Movies movie = moviesRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException(&quot;Employee not exist with id :&quot; + id));&#xD;
+&#xD;
+		moviesRepository.delete(movie);&#xD;
+		Map&lt;String, Boolean> response = new HashMap&lt;>();&#xD;
+		response.put(&quot;deleted&quot;, Boolean.TRUE);&#xD;
+		return ResponseEntity.ok(response);&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_5VylYA_JEeyYCo3wDrP2bg" name="getAllMovies" method="_5ooB0A_JEeyYCo3wDrP2bg">
+              <ownedParameter xmi:id="_5VzMcA_JEeyYCo3wDrP2bg" type="_5XOIwA_JEeyYCo3wDrP2bg" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5VzzgA_JEeyYCo3wDrP2bg" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_5j6g8A_JEeyYCo3wDrP2bg" name="createMovie" method="_5ooo4A_JEeyYCo3wDrP2bg">
+              <ownedParameter xmi:id="_5j6g8Q_JEeyYCo3wDrP2bg" name="movie" type="_5XOIwA_JEeyYCo3wDrP2bg"/>
+              <ownedParameter xmi:id="_5j7IAA_JEeyYCo3wDrP2bg" type="_5XOIwA_JEeyYCo3wDrP2bg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_5msIIQ_JEeyYCo3wDrP2bg" name="getMovieById" method="_5opP8A_JEeyYCo3wDrP2bg">
+              <ownedParameter xmi:id="_5msvMA_JEeyYCo3wDrP2bg" name="id" type="_5mjlQQ_JEeyYCo3wDrP2bg"/>
+              <ownedParameter xmi:id="_5m0rAA_JEeyYCo3wDrP2bg" type="_5hb0sA_JEeyYCo3wDrP2bg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_5m3HQA_JEeyYCo3wDrP2bg" name="updateMovie" method="_5opP8w_JEeyYCo3wDrP2bg">
+              <ownedParameter xmi:id="_5m3HQQ_JEeyYCo3wDrP2bg" name="id" type="_5mjlQQ_JEeyYCo3wDrP2bg"/>
+              <ownedParameter xmi:id="_5m3uUA_JEeyYCo3wDrP2bg" name="movieDetails" type="_5XOIwA_JEeyYCo3wDrP2bg"/>
+              <ownedParameter xmi:id="_5m_DEQ_JEeyYCo3wDrP2bg" type="_5hb0sA_JEeyYCo3wDrP2bg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_5nBfUA_JEeyYCo3wDrP2bg" name="deleteMovie" method="_5op3AA_JEeyYCo3wDrP2bg">
+              <ownedParameter xmi:id="_5nCGYA_JEeyYCo3wDrP2bg" name="id" type="_5mjlQQ_JEeyYCo3wDrP2bg"/>
+              <ownedParameter xmi:id="_5nJbIQ_JEeyYCo3wDrP2bg" type="_5hb0sA_JEeyYCo3wDrP2bg" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_5ozoAA_JEeyYCo3wDrP2bg" name="" memberEnd="_5ozoAQ_JEeyYCo3wDrP2bg _5nwfIA_JEeyYCo3wDrP2bg">
+            <ownedEnd xmi:id="_5ozoAQ_JEeyYCo3wDrP2bg" name="" type="_5VwwMQ_JEeyYCo3wDrP2bg" association="_5ozoAA_JEeyYCo3wDrP2bg"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_5VsewA_JEeyYCo3wDrP2bg" name="MoviesManagementFinalApplication">
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_5onawA_JEeyYCo3wDrP2bg" name="main" specification="_5VuT8A_JEeyYCo3wDrP2bg">
+            <ownedParameter xmi:id="_5onawQ_JEeyYCo3wDrP2bg" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5onawg_JEeyYCo3wDrP2bg" value="*"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>SpringApplication.run(MoviesManagementFinalApplication.class, args);
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_5VuT8A_JEeyYCo3wDrP2bg" name="main" isStatic="true" method="_5onawA_JEeyYCo3wDrP2bg">
+            <ownedParameter xmi:id="_5VuT8Q_JEeyYCo3wDrP2bg" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5Vu7AQ_JEeyYCo3wDrP2bg" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_5XufEA_JEeyYCo3wDrP2bg" name="MoviesManagementFinalApplicationTests" visibility="package">
+          <eAnnotations xmi:id="_5XvGIA_JEeyYCo3wDrP2bg" source="http://ns.yatta.de/umllab">
+            <contents xmi:type="ecore:EAnnotation" xmi:id="_5XvGIQ_JEeyYCo3wDrP2bg" source="codegen">
+              <details xmi:id="_5XvGIg_JEeyYCo3wDrP2bg" key="codegenDirectory" value="/MoviesManagementFinal/src/test/java"/>
+            </contents>
+          </eAnnotations>
+          <ownedOperation xmi:id="_5XvtMQ_JEeyYCo3wDrP2bg" name="contextLoads" visibility="package"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_5TUgMA_JEeyYCo3wDrP2bg" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="_5TUgMQ_JEeyYCo3wDrP2bg" name="springframework">
+        <packagedElement xmi:type="uml:Package" xmi:id="_5TVHQA_JEeyYCo3wDrP2bg" name="boot">
+          <packagedElement xmi:type="uml:Package" xmi:id="_5TVHQQ_JEeyYCo3wDrP2bg" name="autoconfigure">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_5gINIA_JEeyYCo3wDrP2bg" name="SpringBootApplication"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_5U4mcg_JEeyYCo3wDrP2bg" name="test">
+            <packagedElement xmi:type="uml:Package" xmi:id="_5U7CsA_JEeyYCo3wDrP2bg" name="context">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_5lvs8Q_JEeyYCo3wDrP2bg" name="SpringBootTest"/>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_5ft9cA_JEeyYCo3wDrP2bg" name="SpringApplication"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_5TZYsA_JEeyYCo3wDrP2bg" name="beans">
+          <packagedElement xmi:type="uml:Package" xmi:id="_5TZYsQ_JEeyYCo3wDrP2bg" name="factory">
+            <packagedElement xmi:type="uml:Package" xmi:id="_5TZ_wA_JEeyYCo3wDrP2bg" name="annotation">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_5hPncQ_JEeyYCo3wDrP2bg" name="Autowired"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_5TZ_wQ_JEeyYCo3wDrP2bg" name="http">
+          <packagedElement xmi:type="uml:Class" xmi:id="_5hb0sA_JEeyYCo3wDrP2bg" name="ResponseEntity"/>
+          <packagedElement xmi:type="uml:Enumeration" xmi:id="_5kB1sA_JEeyYCo3wDrP2bg" name="HttpStatus"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_5Tam0A_JEeyYCo3wDrP2bg" name="web">
+          <packagedElement xmi:type="uml:Package" xmi:id="_5Tam0Q_JEeyYCo3wDrP2bg" name="bind">
+            <packagedElement xmi:type="uml:Package" xmi:id="_5Tam0g_JEeyYCo3wDrP2bg" name="annotation">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_5huvoQ_JEeyYCo3wDrP2bg" name="CrossOrigin"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_5h6V0Q_JEeyYCo3wDrP2bg" name="DeleteMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_5iEt4Q_JEeyYCo3wDrP2bg" name="GetMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_5iin8A_JEeyYCo3wDrP2bg" name="PathVariable"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_5i3YEA_JEeyYCo3wDrP2bg" name="PostMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_5jAiAQ_JEeyYCo3wDrP2bg" name="PutMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_5jJE4Q_JEeyYCo3wDrP2bg" name="RequestBody"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_5jUEAA_JEeyYCo3wDrP2bg" name="RequestMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_5jdN8Q_JEeyYCo3wDrP2bg" name="RestController"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_5kJKcQ_JEeyYCo3wDrP2bg" name="ResponseStatus"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_5UmSkA_JEeyYCo3wDrP2bg" name="data">
+          <packagedElement xmi:type="uml:Package" xmi:id="_5Um5oA_JEeyYCo3wDrP2bg" name="jpa">
+            <packagedElement xmi:type="uml:Package" xmi:id="_5UoHwA_JEeyYCo3wDrP2bg" name="repository">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_5lZusA_JEeyYCo3wDrP2bg" name="JpaRepository"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_5Uou0A_JEeyYCo3wDrP2bg" name="stereotype">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_5lhDcQ_JEeyYCo3wDrP2bg" name="Repository"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_5U3YUA_JEeyYCo3wDrP2bg" name="junit">
+        <packagedElement xmi:type="uml:Package" xmi:id="_5U4mcA_JEeyYCo3wDrP2bg" name="jupiter">
+          <packagedElement xmi:type="uml:Package" xmi:id="_5U4mcQ_JEeyYCo3wDrP2bg" name="api">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_5loYMA_JEeyYCo3wDrP2bg" name="Test"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_5UIYgA_JEeyYCo3wDrP2bg" name="javax">
+      <packagedElement xmi:type="uml:Package" xmi:id="_5UI_kA_JEeyYCo3wDrP2bg" name="persistence">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_5kRtUA_JEeyYCo3wDrP2bg" name="Column"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_5kYbAA_JEeyYCo3wDrP2bg" name="Entity"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_5kuZQQ_JEeyYCo3wDrP2bg" name="GeneratedValue"/>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_5k1uAQ_JEeyYCo3wDrP2bg" name="GenerationType"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_5k-Q4A_JEeyYCo3wDrP2bg" name="Id"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_5lP9sQ_JEeyYCo3wDrP2bg" name="Table"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_5VRA8A_JEeyYCo3wDrP2bg" name="MavenWrapperDownloader">
+      <eAnnotations xmi:id="_5VUrUA_JEeyYCo3wDrP2bg" source="http://ns.yatta.de/umllab">
+        <contents xmi:type="ecore:EAnnotation" xmi:id="_5VUrUQ_JEeyYCo3wDrP2bg" source="codegen">
+          <details xmi:id="_5VUrUg_JEeyYCo3wDrP2bg" key="codegenDirectory" value="/MoviesManagementFinal/.mvn/wrapper"/>
+        </contents>
+      </eAnnotations>
+      <ownedAttribute xmi:id="_5nsNsA_JEeyYCo3wDrP2bg" name="WRAPPER_VERSION" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_5ns0wA_JEeyYCo3wDrP2bg" value="&quot;0.5.6&quot;"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_5ntb0A_JEeyYCo3wDrP2bg" name="DEFAULT_DOWNLOAD_URL" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_5nuC4A_JEeyYCo3wDrP2bg" value="&quot;https://repo.maven.apache.org/maven2/io/takari/maven-wrapper/&quot;&#xA;        + WRAPPER_VERSION + &quot;/maven-wrapper-&quot; + WRAPPER_VERSION + &quot;.jar&quot;"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_5nuC4Q_JEeyYCo3wDrP2bg" name="MAVEN_WRAPPER_PROPERTIES_PATH" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_5nup8A_JEeyYCo3wDrP2bg" value="&quot;.mvn/wrapper/maven-wrapper.properties&quot;"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_5nup8Q_JEeyYCo3wDrP2bg" name="MAVEN_WRAPPER_JAR_PATH" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_5nvRAA_JEeyYCo3wDrP2bg" value="&quot;.mvn/wrapper/maven-wrapper.jar&quot;"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_5nvRAQ_JEeyYCo3wDrP2bg" name="PROPERTY_NAME_WRAPPER_URL" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_5nv4EA_JEeyYCo3wDrP2bg" value="&quot;wrapperUrl&quot;"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_5ojJUA_JEeyYCo3wDrP2bg" name="main" specification="_5VjU0A_JEeyYCo3wDrP2bg">
+        <ownedParameter xmi:id="_5ojJUQ_JEeyYCo3wDrP2bg" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5ojJUg_JEeyYCo3wDrP2bg" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>System.out.println(&quot;- Downloader started&quot;);
+     File baseDirectory = new File(args[0]);
+     System.out.println(&quot;- Using base directory: &quot; + baseDirectory.getAbsolutePath());
+
+     // If the maven-wrapper.properties exists, read it and check if it contains a custom
+     // wrapperUrl parameter.
+     File mavenWrapperPropertyFile = new File(baseDirectory, MAVEN_WRAPPER_PROPERTIES_PATH);
+     String url = DEFAULT_DOWNLOAD_URL;
+     if(mavenWrapperPropertyFile.exists()) {
+         FileInputStream mavenWrapperPropertyFileInputStream = null;
+         try {
+             mavenWrapperPropertyFileInputStream = new FileInputStream(mavenWrapperPropertyFile);
+             Properties mavenWrapperProperties = new Properties();
+             mavenWrapperProperties.load(mavenWrapperPropertyFileInputStream);
+             url = mavenWrapperProperties.getProperty(PROPERTY_NAME_WRAPPER_URL, url);
+         } catch (IOException e) {
+             System.out.println(&quot;- ERROR loading '&quot; + MAVEN_WRAPPER_PROPERTIES_PATH + &quot;'&quot;);
+         } finally {
+             try {
+                 if(mavenWrapperPropertyFileInputStream != null) {
+                     mavenWrapperPropertyFileInputStream.close();
+                 }
+             } catch (IOException e) {
+                 // Ignore ...
+             }
+         }
+     }
+     System.out.println(&quot;- Downloading from: &quot; + url);
+
+     File outputFile = new File(baseDirectory.getAbsolutePath(), MAVEN_WRAPPER_JAR_PATH);
+     if(!outputFile.getParentFile().exists()) {
+         if(!outputFile.getParentFile().mkdirs()) {
+             System.out.println(
+                     &quot;- ERROR creating output directory '&quot; + outputFile.getParentFile().getAbsolutePath() + &quot;'&quot;);
+         }
+     }
+     System.out.println(&quot;- Downloading to: &quot; + outputFile.getAbsolutePath());
+     try {
+         downloadFileFromURL(url, outputFile);
+         System.out.println(&quot;Done&quot;);
+         System.exit(0);
+     } catch (Throwable e) {
+         System.out.println(&quot;- Error downloading&quot;);
+         e.printStackTrace();
+         System.exit(1);
+     }
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_5omzsA_JEeyYCo3wDrP2bg" name="downloadFileFromURL" specification="_5mfT0Q_JEeyYCo3wDrP2bg">
+        <ownedParameter xmi:id="_5omzsQ_JEeyYCo3wDrP2bg" name="urlString">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_5omzsg_JEeyYCo3wDrP2bg" name="destination" type="_5mBZwA_JEeyYCo3wDrP2bg"/>
+        <language>java</language>
+        <body>if (System.getenv(&quot;MVNW_USERNAME&quot;) != null &amp;&amp; System.getenv(&quot;MVNW_PASSWORD&quot;) != null) {
+         String username = System.getenv(&quot;MVNW_USERNAME&quot;);
+         char[] password = System.getenv(&quot;MVNW_PASSWORD&quot;).toCharArray();
+         Authenticator.setDefault(new Authenticator() {
+             @Override
+             protected PasswordAuthentication getPasswordAuthentication() {
+                 return new PasswordAuthentication(username, password);
+             }
+         });
+     }
+     URL website = new URL(urlString);
+     ReadableByteChannel rbc;
+     rbc = Channels.newChannel(website.openStream());
+     FileOutputStream fos = new FileOutputStream(destination);
+     fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
+     fos.close();
+     rbc.close();
+ </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_5VjU0A_JEeyYCo3wDrP2bg" name="main" isStatic="true" method="_5ojJUA_JEeyYCo3wDrP2bg">
+        <ownedParameter xmi:id="_5Vj74A_JEeyYCo3wDrP2bg" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5VnmQA_JEeyYCo3wDrP2bg" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_5mfT0Q_JEeyYCo3wDrP2bg" name="downloadFileFromURL" visibility="private" isStatic="true" method="_5omzsA_JEeyYCo3wDrP2bg" raisedException="_5mLKwQ_JEeyYCo3wDrP2bg">
+        <ownedParameter xmi:id="_5mf64A_JEeyYCo3wDrP2bg" name="urlString">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_5mgh8A_JEeyYCo3wDrP2bg" name="destination" type="_5mBZwA_JEeyYCo3wDrP2bg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_6QbBoA_JEeyYCo3wDrP2bg" name="NewClass1"/>
+    <profileApplication xmi:id="_3zynIA_JEeyYCo3wDrP2bg">
+      <eAnnotations xmi:id="_3z4GsA_JEeyYCo3wDrP2bg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+    <profileApplication xmi:id="_5XRMEA_JEeyYCo3wDrP2bg">
+      <eAnnotations xmi:id="_5XRzIA_JEeyYCo3wDrP2bg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PERSISTENCY_PROFILES/Persistency.profile.uml#Persistency_2-Annotation-Persistency"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://PERSISTENCY_PROFILES/Persistency.profile.uml#Persistency_2"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_30OsAA_JEeyYCo3wDrP2bg" base_Package="_3IzwcA_JEeyYCo3wDrP2bg">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_5Vm_MA_JEeyYCo3wDrP2bg" base_Element="_5VjU0A_JEeyYCo3wDrP2bg"/>
+  <UMLLabProfile:Array xmi:id="_5VoNUA_JEeyYCo3wDrP2bg" base_Element="_5Vj74A_JEeyYCo3wDrP2bg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_5Vts4A_JEeyYCo3wDrP2bg" base_Element="_5VsewA_JEeyYCo3wDrP2bg"/>
+  <UMLLabProfile:StyledElement xmi:id="_5Vu7AA_JEeyYCo3wDrP2bg" base_Element="_5VuT8A_JEeyYCo3wDrP2bg"/>
+  <UMLLabProfile:Annotations xmi:id="_5VwJIA_JEeyYCo3wDrP2bg" base_Element="_5VsewA_JEeyYCo3wDrP2bg">
+    <annotations xmi:id="_5VwwMA_JEeyYCo3wDrP2bg" name="SpringBootApplication"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_5Vx-UA_JEeyYCo3wDrP2bg" base_Element="_5VwwMQ_JEeyYCo3wDrP2bg"/>
+  <UMLLabProfile:Annotations xmi:id="_5V1osA_JEeyYCo3wDrP2bg" base_Element="_5VylYA_JEeyYCo3wDrP2bg">
+    <annotations xmi:id="_5V2PwA_JEeyYCo3wDrP2bg" name="GetMapping">
+      <annotationParameters xmi:id="_5V3d4A_JEeyYCo3wDrP2bg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_5osTQQ_JEeyYCo3wDrP2bg" value="&quot;/movies&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_5V7vUA_JEeyYCo3wDrP2bg" base_Element="_5VwwMQ_JEeyYCo3wDrP2bg">
+    <annotations xmi:id="_5V7vUQ_JEeyYCo3wDrP2bg" name="CrossOrigin">
+      <annotationParameters xmi:id="_5V8WYA_JEeyYCo3wDrP2bg" name="origins" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_5orsMA_JEeyYCo3wDrP2bg" value="&quot;http://localhost:3000/&quot;"/>
+      </annotationParameters>
+    </annotations>
+    <annotations xmi:id="_5V8WYQ_JEeyYCo3wDrP2bg" name="RestController"/>
+    <annotations xmi:id="_5V8WYg_JEeyYCo3wDrP2bg" name="RequestMapping">
+      <annotationParameters xmi:id="_5V_ZsA_JEeyYCo3wDrP2bg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_5osTQA_JEeyYCo3wDrP2bg" value="&quot;/api/v1/&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_5WgXEA_JEeyYCo3wDrP2bg" base_Element="_5WfI8A_JEeyYCo3wDrP2bg"/>
+  <UMLLabProfile:StyledElement xmi:id="_5XLFcA_JEeyYCo3wDrP2bg" base_Element="_5WhlMA_JEeyYCo3wDrP2bg"/>
+  <UMLLabProfile:Annotations xmi:id="_5XMTkA_JEeyYCo3wDrP2bg" base_Element="_5WfI8A_JEeyYCo3wDrP2bg">
+    <annotations xmi:id="_5XMTkQ_JEeyYCo3wDrP2bg" name="ResponseStatus">
+      <annotationParameters xmi:id="_5XM6oA_JEeyYCo3wDrP2bg" name="value" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_5os6Ug_JEeyYCo3wDrP2bg" value="HttpStatus.NOT_FOUND"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <Persistency:Table xmi:id="_5XXSsA_JEeyYCo3wDrP2bg" tableName="movies" base_Classifier="_5XOIwA_JEeyYCo3wDrP2bg"/>
+  <Persistency:JPA1StyledElement xmi:id="_5XYg0A_JEeyYCo3wDrP2bg" base_Element="_5XOIwA_JEeyYCo3wDrP2bg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_5XcyQA_JEeyYCo3wDrP2bg" base_Element="_5XbkIA_JEeyYCo3wDrP2bg"/>
+  <UMLLabProfile:StyledElement xmi:id="_5XhqwA_JEeyYCo3wDrP2bg" base_Element="_5Xf1kA_JEeyYCo3wDrP2bg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_5Xsp4A_JEeyYCo3wDrP2bg" base_Element="_5XrbwA_JEeyYCo3wDrP2bg"/>
+  <UMLLabProfile:Annotations xmi:id="_5XtQ8A_JEeyYCo3wDrP2bg" base_Element="_5XrbwA_JEeyYCo3wDrP2bg">
+    <annotations xmi:id="_5XtQ8Q_JEeyYCo3wDrP2bg" name="Repository"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_5XvtMA_JEeyYCo3wDrP2bg" base_Element="_5XufEA_JEeyYCo3wDrP2bg"/>
+  <UMLLabProfile:Annotations xmi:id="_5Xw7UA_JEeyYCo3wDrP2bg" base_Element="_5XvtMQ_JEeyYCo3wDrP2bg">
+    <annotations xmi:id="_5Xw7UQ_JEeyYCo3wDrP2bg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_5XxiYA_JEeyYCo3wDrP2bg" base_Element="_5XufEA_JEeyYCo3wDrP2bg">
+    <annotations xmi:id="_5XxiYQ_JEeyYCo3wDrP2bg" name="SpringBootTest"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_5fq6IA_JEeyYCo3wDrP2bg" base_Element="_5fIuoA_JEeyYCo3wDrP2bg"/>
+  <UMLLabProfile:Reference xmi:id="_5gHmEA_JEeyYCo3wDrP2bg" base_Element="_5ft9cA_JEeyYCo3wDrP2bg"/>
+  <UMLLabProfile:Reference xmi:id="_5gXdsA_JEeyYCo3wDrP2bg" base_Element="_5gINIA_JEeyYCo3wDrP2bg"/>
+  <UMLLabProfile:Reference xmi:id="_5gmuQA_JEeyYCo3wDrP2bg" base_Element="_5gYEwA_JEeyYCo3wDrP2bg"/>
+  <UMLLabProfile:Reference xmi:id="_5hBlAA_JEeyYCo3wDrP2bg" base_Element="_5gnVUA_JEeyYCo3wDrP2bg"/>
+  <UMLLabProfile:Reference xmi:id="_5hPncA_JEeyYCo3wDrP2bg" base_Element="_5hCMEA_JEeyYCo3wDrP2bg"/>
+  <UMLLabProfile:Reference xmi:id="_5hbNoA_JEeyYCo3wDrP2bg" base_Element="_5hPncQ_JEeyYCo3wDrP2bg"/>
+  <UMLLabProfile:Reference xmi:id="_5huvoA_JEeyYCo3wDrP2bg" base_Element="_5hb0sA_JEeyYCo3wDrP2bg"/>
+  <UMLLabProfile:Reference xmi:id="_5h6V0A_JEeyYCo3wDrP2bg" base_Element="_5huvoQ_JEeyYCo3wDrP2bg"/>
+  <UMLLabProfile:Reference xmi:id="_5iEt4A_JEeyYCo3wDrP2bg" base_Element="_5h6V0Q_JEeyYCo3wDrP2bg"/>
+  <UMLLabProfile:Reference xmi:id="_5iiA4A_JEeyYCo3wDrP2bg" base_Element="_5iEt4Q_JEeyYCo3wDrP2bg"/>
+  <UMLLabProfile:Reference xmi:id="_5i2xAA_JEeyYCo3wDrP2bg" base_Element="_5iin8A_JEeyYCo3wDrP2bg"/>
+  <UMLLabProfile:Reference xmi:id="_5jAiAA_JEeyYCo3wDrP2bg" base_Element="_5i3YEA_JEeyYCo3wDrP2bg"/>
+  <UMLLabProfile:Reference xmi:id="_5jJE4A_JEeyYCo3wDrP2bg" base_Element="_5jAiAQ_JEeyYCo3wDrP2bg"/>
+  <UMLLabProfile:Reference xmi:id="_5jTc8A_JEeyYCo3wDrP2bg" base_Element="_5jJE4Q_JEeyYCo3wDrP2bg"/>
+  <UMLLabProfile:Reference xmi:id="_5jdN8A_JEeyYCo3wDrP2bg" base_Element="_5jUEAA_JEeyYCo3wDrP2bg"/>
+  <UMLLabProfile:Reference xmi:id="_5j3doA_JEeyYCo3wDrP2bg" base_Element="_5jdN8Q_JEeyYCo3wDrP2bg"/>
+  <UMLLabProfile:Annotations xmi:id="_5j8WIA_JEeyYCo3wDrP2bg" base_Element="_5j6g8Q_JEeyYCo3wDrP2bg">
+    <annotations xmi:id="_5j8WIQ_JEeyYCo3wDrP2bg" name="RequestBody"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_5j8WIg_JEeyYCo3wDrP2bg" base_Element="_5j6g8A_JEeyYCo3wDrP2bg">
+    <annotations xmi:id="_5j89MA_JEeyYCo3wDrP2bg" name="PostMapping">
+      <annotationParameters xmi:id="_5j89MQ_JEeyYCo3wDrP2bg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_5osTQg_JEeyYCo3wDrP2bg" value="&quot;/movies&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_5kJKcA_JEeyYCo3wDrP2bg" base_Element="_5kB1sA_JEeyYCo3wDrP2bg"/>
+  <UMLLabProfile:Reference xmi:id="_5kP4IA_JEeyYCo3wDrP2bg" base_Element="_5kJKcQ_JEeyYCo3wDrP2bg"/>
+  <UMLLabProfile:Reference xmi:id="_5kXz8A_JEeyYCo3wDrP2bg" base_Element="_5kRtUA_JEeyYCo3wDrP2bg"/>
+  <UMLLabProfile:Reference xmi:id="_5kuZQA_JEeyYCo3wDrP2bg" base_Element="_5kYbAA_JEeyYCo3wDrP2bg"/>
+  <UMLLabProfile:Reference xmi:id="_5k1uAA_JEeyYCo3wDrP2bg" base_Element="_5kuZQQ_JEeyYCo3wDrP2bg"/>
+  <UMLLabProfile:Reference xmi:id="_5k9p0A_JEeyYCo3wDrP2bg" base_Element="_5k1uAQ_JEeyYCo3wDrP2bg"/>
+  <UMLLabProfile:Reference xmi:id="_5lP9sA_JEeyYCo3wDrP2bg" base_Element="_5k-Q4A_JEeyYCo3wDrP2bg"/>
+  <UMLLabProfile:Reference xmi:id="_5lXScA_JEeyYCo3wDrP2bg" base_Element="_5lP9sQ_JEeyYCo3wDrP2bg"/>
+  <UMLLabProfile:Reference xmi:id="_5lhDcA_JEeyYCo3wDrP2bg" base_Element="_5lZusA_JEeyYCo3wDrP2bg"/>
+  <UMLLabProfile:Reference xmi:id="_5lnxIA_JEeyYCo3wDrP2bg" base_Element="_5lhDcQ_JEeyYCo3wDrP2bg"/>
+  <UMLLabProfile:Reference xmi:id="_5lvs8A_JEeyYCo3wDrP2bg" base_Element="_5loYMA_JEeyYCo3wDrP2bg"/>
+  <UMLLabProfile:Reference xmi:id="_5l7TIA_JEeyYCo3wDrP2bg" base_Element="_5lvs8Q_JEeyYCo3wDrP2bg"/>
+  <UMLLabProfile:Reference xmi:id="_5mLKwA_JEeyYCo3wDrP2bg" base_Element="_5mBZwA_JEeyYCo3wDrP2bg"/>
+  <UMLLabProfile:Reference xmi:id="_5mfT0A_JEeyYCo3wDrP2bg" base_Element="_5mLKwQ_JEeyYCo3wDrP2bg"/>
+  <UMLLabProfile:Reference xmi:id="_5msIIA_JEeyYCo3wDrP2bg" base_Element="_5mjlQQ_JEeyYCo3wDrP2bg"/>
+  <UMLLabProfile:Generics xmi:id="_5m0D8A_JEeyYCo3wDrP2bg" genericsValue="Movies" base_Element="_5msIIQ_JEeyYCo3wDrP2bg"/>
+  <UMLLabProfile:Annotations xmi:id="_5m15IA_JEeyYCo3wDrP2bg" base_Element="_5msvMA_JEeyYCo3wDrP2bg">
+    <annotations xmi:id="_5m15IQ_JEeyYCo3wDrP2bg" name="PathVariable"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_5m2gMA_JEeyYCo3wDrP2bg" base_Element="_5msIIQ_JEeyYCo3wDrP2bg">
+    <annotations xmi:id="_5m2gMQ_JEeyYCo3wDrP2bg" name="GetMapping">
+      <annotationParameters xmi:id="_5m2gMg_JEeyYCo3wDrP2bg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_5osTQw_JEeyYCo3wDrP2bg" value="&quot;/movies/{id}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_5m_DEA_JEeyYCo3wDrP2bg" genericsValue="Movies" base_Element="_5m3HQA_JEeyYCo3wDrP2bg"/>
+  <UMLLabProfile:Annotations xmi:id="_5m_qIA_JEeyYCo3wDrP2bg" base_Element="_5m3HQQ_JEeyYCo3wDrP2bg">
+    <annotations xmi:id="_5nARMA_JEeyYCo3wDrP2bg" name="PathVariable"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_5nARMQ_JEeyYCo3wDrP2bg" base_Element="_5m3uUA_JEeyYCo3wDrP2bg">
+    <annotations xmi:id="_5nA4QA_JEeyYCo3wDrP2bg" name="RequestBody"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_5nA4QQ_JEeyYCo3wDrP2bg" base_Element="_5m3HQA_JEeyYCo3wDrP2bg">
+    <annotations xmi:id="_5nA4Qg_JEeyYCo3wDrP2bg" name="PutMapping">
+      <annotationParameters xmi:id="_5nA4Qw_JEeyYCo3wDrP2bg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_5os6UA_JEeyYCo3wDrP2bg" value="&quot;/movies/{id}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_5nJbIA_JEeyYCo3wDrP2bg" genericsValue="Map&lt;String, Boolean>" base_Element="_5nBfUA_JEeyYCo3wDrP2bg"/>
+  <UMLLabProfile:Annotations xmi:id="_5nKpQA_JEeyYCo3wDrP2bg" base_Element="_5nCGYA_JEeyYCo3wDrP2bg">
+    <annotations xmi:id="_5nKpQQ_JEeyYCo3wDrP2bg" name="PathVariable"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_5nKpQg_JEeyYCo3wDrP2bg" base_Element="_5nBfUA_JEeyYCo3wDrP2bg">
+    <annotations xmi:id="_5nKpQw_JEeyYCo3wDrP2bg" name="DeleteMapping">
+      <annotationParameters xmi:id="_5nKpRA_JEeyYCo3wDrP2bg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_5os6UQ_JEeyYCo3wDrP2bg" value="&quot;/movies/{id}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_5ndkMA_JEeyYCo3wDrP2bg" base_Element="_5nL3YA_JEeyYCo3wDrP2bg"/>
+  <UMLLabProfile:Generics xmi:id="_5npKYA_JEeyYCo3wDrP2bg" genericsValue="Movies, Long" base_Element="_5nhOkA_JEeyYCo3wDrP2bg"/>
+  <UMLLabProfile:Annotations xmi:id="_5nxGMA_JEeyYCo3wDrP2bg" base_Element="_5nwfIA_JEeyYCo3wDrP2bg">
+    <annotations xmi:id="_5nxGMQ_JEeyYCo3wDrP2bg" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:StyledElement xmi:id="_5nyUUQ_JEeyYCo3wDrP2bg" base_Element="_5nxtQA_JEeyYCo3wDrP2bg"/>
+  <Persistency:PrimaryKey xmi:id="_5ny7YQ_JEeyYCo3wDrP2bg" base_Property="_5ny7YA_JEeyYCo3wDrP2bg"/>
+  <Persistency:GeneratedValueMapping xmi:id="_5nzicA_JEeyYCo3wDrP2bg" base_Property="_5ny7YA_JEeyYCo3wDrP2bg" strategy="IDENTITY"/>
+  <Persistency:Column xmi:id="_5n9TcA_JEeyYCo3wDrP2bg" base_Property="_5n1-sA_JEeyYCo3wDrP2bg" label="title"/>
+  <Persistency:Column xmi:id="_5oF2UA_JEeyYCo3wDrP2bg" base_Property="_5n-hkA_JEeyYCo3wDrP2bg" label="director"/>
+  <Persistency:Column xmi:id="_5oOZMA_JEeyYCo3wDrP2bg" base_Property="_5oHEcA_JEeyYCo3wDrP2bg" label="genre"/>
+  <UMLLabProfile:Reference xmi:id="_5o-AEA_JEeyYCo3wDrP2bg" base_Element="_5ozoAA_JEeyYCo3wDrP2bg"/>
+</xmi:XMI>

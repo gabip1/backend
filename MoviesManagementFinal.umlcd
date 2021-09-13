@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_3PCUQA_JEeyYCo3wDrP2bg">
+  <modelElement href="MoviesManagementFinal.uml#_5TW8cA_JEeyYCo3wDrP2bg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_6lw_gA_JEeyYCo3wDrP2bg" sourceAnchor="256.0,0.0" targetAnchor="0.0,51.0" target="_6mibkA_JEeyYCo3wDrP2bg" source="_6lxmkA_JEeyYCo3wDrP2bg">
+    <modelElement href="MoviesManagementFinal.uml#_5ozoAA_JEeyYCo3wDrP2bg"/>
+    <bendpoints xmi:id="_65qL4A_JEeyYCo3wDrP2bg" sourceY="-80" targetX="-338"/>
+    <stereotypes xmi:id="_6lw_gQ_JEeyYCo3wDrP2bg" name="Reference">
+      <modelElement href="MoviesManagementFinal.uml#_5o-AEA_JEeyYCo3wDrP2bg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_6lw_gg_JEeyYCo3wDrP2bg" text="">
+      <visualProperties xmi:id="_65udUA_JEeyYCo3wDrP2bg" position="-20.366554774084307,16.348008657110768"/>
+    </nameVisual>
+    <sourceRole xmi:id="_6lw_gw_JEeyYCo3wDrP2bg" aggregationKind="NONE" name="">
+      <modelElement href="MoviesManagementFinal.uml#_5ozoAQ_JEeyYCo3wDrP2bg"/>
+      <visualProperties xmi:id="_65sBEA_JEeyYCo3wDrP2bg" position="-13.333884177039636,-68.04379952083832"/>
+      <visibility xmi:id="_6lw_hA_JEeyYCo3wDrP2bg" label="+"/>
+      <cardinality xmi:id="_6lw_hQ_JEeyYCo3wDrP2bg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_6lw_hg_JEeyYCo3wDrP2bg" aggregationKind="NONE" name="moviesRepository" navigable="true">
+      <modelElement href="MoviesManagementFinal.uml#_5nwfIA_JEeyYCo3wDrP2bg"/>
+      <visualProperties xmi:id="_65vEYA_JEeyYCo3wDrP2bg" position="-411.2052030050768,-15.195978135084033"/>
+      <visibility xmi:id="_6lw_hw_JEeyYCo3wDrP2bg" label="-"/>
+      <cardinality xmi:id="_6lw_iA_JEeyYCo3wDrP2bg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_6Qmn0A_JEeyYCo3wDrP2bg" name="NewClass1">
+    <modelElement href="MoviesManagementFinal.uml#_6QbBoA_JEeyYCo3wDrP2bg"/>
+    <visualProperties xmi:id="_6Qmn0Q_JEeyYCo3wDrP2bg" position="2850.0,1880.0" size="180.0,130.0"/>
+    <visibility xmi:id="_6Qmn0g_JEeyYCo3wDrP2bg" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_6k0kUA_JEeyYCo3wDrP2bg" name="MavenWrapperDownloader">
+    <modelElement href="MoviesManagementFinal.uml#_5VRA8A_JEeyYCo3wDrP2bg"/>
+    <visualProperties xmi:id="_6k0kUQ_JEeyYCo3wDrP2bg" position="3125.0,1650.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_6k0kUg_JEeyYCo3wDrP2bg" label="+"/>
+    <attributes xmi:id="_6k0kUw_JEeyYCo3wDrP2bg" defaultValue="&quot;0.5.6&quot;" name="WRAPPER_VERSION" staticAttribute="true">
+      <modelElement href="MoviesManagementFinal.uml#_5nsNsA_JEeyYCo3wDrP2bg"/>
+      <visibility xmi:id="_6k0kVA_JEeyYCo3wDrP2bg" label="-"/>
+      <cardinality xmi:id="_6k0kVQ_JEeyYCo3wDrP2bg" label="1" max="1" min="1"/>
+      <type xmi:id="_6k0kVg_JEeyYCo3wDrP2bg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6k0kVw_JEeyYCo3wDrP2bg" defaultValue="&quot;https://repo.maven.apache.org/maven2/io/takari/maven-wrapper/&quot;&#xA;        + WRAPPER_VERSION + &quot;/maven-wrapper-&quot; + WRAPPER_VERSION + &quot;.jar&quot;" name="DEFAULT_DOWNLOAD_URL" staticAttribute="true">
+      <modelElement href="MoviesManagementFinal.uml#_5ntb0A_JEeyYCo3wDrP2bg"/>
+      <visibility xmi:id="_6k0kWA_JEeyYCo3wDrP2bg" label="-"/>
+      <cardinality xmi:id="_6k0kWQ_JEeyYCo3wDrP2bg" label="1" max="1" min="1"/>
+      <type xmi:id="_6k0kWg_JEeyYCo3wDrP2bg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6k0kWw_JEeyYCo3wDrP2bg" defaultValue="&quot;.mvn/wrapper/maven-wrapper.properties&quot;" name="MAVEN_WRAPPER_PROPERTIES_PATH" staticAttribute="true">
+      <modelElement href="MoviesManagementFinal.uml#_5nuC4Q_JEeyYCo3wDrP2bg"/>
+      <visibility xmi:id="_6k0kXA_JEeyYCo3wDrP2bg" label="-"/>
+      <cardinality xmi:id="_6k0kXQ_JEeyYCo3wDrP2bg" label="1" max="1" min="1"/>
+      <type xmi:id="_6k0kXg_JEeyYCo3wDrP2bg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6k0kXw_JEeyYCo3wDrP2bg" defaultValue="&quot;.mvn/wrapper/maven-wrapper.jar&quot;" name="MAVEN_WRAPPER_JAR_PATH" staticAttribute="true">
+      <modelElement href="MoviesManagementFinal.uml#_5nup8Q_JEeyYCo3wDrP2bg"/>
+      <visibility xmi:id="_6k0kYA_JEeyYCo3wDrP2bg" label="-"/>
+      <cardinality xmi:id="_6k0kYQ_JEeyYCo3wDrP2bg" label="1" max="1" min="1"/>
+      <type xmi:id="_6k0kYg_JEeyYCo3wDrP2bg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6k0kYw_JEeyYCo3wDrP2bg" defaultValue="&quot;wrapperUrl&quot;" name="PROPERTY_NAME_WRAPPER_URL" staticAttribute="true">
+      <modelElement href="MoviesManagementFinal.uml#_5nvRAQ_JEeyYCo3wDrP2bg"/>
+      <visibility xmi:id="_6k0kZA_JEeyYCo3wDrP2bg" label="-"/>
+      <cardinality xmi:id="_6k0kZQ_JEeyYCo3wDrP2bg" label="1" max="1" min="1"/>
+      <type xmi:id="_6k0kZg_JEeyYCo3wDrP2bg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_6k0kZw_JEeyYCo3wDrP2bg" name="main" staticOperation="true">
+      <modelElement href="MoviesManagementFinal.uml#_5VjU0A_JEeyYCo3wDrP2bg"/>
+      <stereotypes xmi:id="_6k0kaA_JEeyYCo3wDrP2bg" name="LegacyStyledElement">
+        <modelElement href="MoviesManagementFinal.uml#_5Vm_MA_JEeyYCo3wDrP2bg"/>
+      </stereotypes>
+      <visibility xmi:id="_6k0kaQ_JEeyYCo3wDrP2bg" label="+"/>
+      <cardinality xmi:id="_6k0kag_JEeyYCo3wDrP2bg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_6k0kaw_JEeyYCo3wDrP2bg" name="args">
+        <modelElement href="MoviesManagementFinal.uml#_5Vj74A_JEeyYCo3wDrP2bg"/>
+        <cardinality xmi:id="_6k0kbA_JEeyYCo3wDrP2bg" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_6k0kbQ_JEeyYCo3wDrP2bg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_6k0kbg_JEeyYCo3wDrP2bg" name="downloadFileFromURL" staticOperation="true">
+      <modelElement href="MoviesManagementFinal.uml#_5mfT0Q_JEeyYCo3wDrP2bg"/>
+      <visibility xmi:id="_6k0kbw_JEeyYCo3wDrP2bg" label="-"/>
+      <cardinality xmi:id="_6k0kcA_JEeyYCo3wDrP2bg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_6k0kcQ_JEeyYCo3wDrP2bg" name="urlString">
+        <modelElement href="MoviesManagementFinal.uml#_5mf64A_JEeyYCo3wDrP2bg"/>
+        <cardinality xmi:id="_6k0kcg_JEeyYCo3wDrP2bg" label="1" max="1" min="1"/>
+        <type xmi:id="_6k0kcw_JEeyYCo3wDrP2bg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_6k0kdA_JEeyYCo3wDrP2bg" name="destination">
+        <modelElement href="MoviesManagementFinal.uml#_5mgh8A_JEeyYCo3wDrP2bg"/>
+        <cardinality xmi:id="_6k0kdQ_JEeyYCo3wDrP2bg" label="1" max="1" min="1"/>
+        <type xmi:id="_6k0kdg_JEeyYCo3wDrP2bg" name="File">
+          <modelElement href="MoviesManagementFinal.uml#_5mBZwA_JEeyYCo3wDrP2bg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_6lZzIA_JEeyYCo3wDrP2bg" name="Exception">
+    <modelElement href="MoviesManagementFinal.uml#_5mLKwQ_JEeyYCo3wDrP2bg"/>
+    <visualProperties xmi:id="_6lZzIQ_JEeyYCo3wDrP2bg" position="2990.0,1585.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_6lZzIg_JEeyYCo3wDrP2bg" name="Reference">
+      <modelElement href="MoviesManagementFinal.uml#_5mfT0A_JEeyYCo3wDrP2bg"/>
+    </stereotypes>
+    <visibility xmi:id="_6lZzIw_JEeyYCo3wDrP2bg" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_6lgg0A_JEeyYCo3wDrP2bg" name="MoviesManagementFinalApplication">
+    <modelElement href="MoviesManagementFinal.uml#_5VsewA_JEeyYCo3wDrP2bg"/>
+    <visualProperties xmi:id="_6lgg0Q_JEeyYCo3wDrP2bg" position="2630.0,1495.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_6lgg0g_JEeyYCo3wDrP2bg" name="LegacyStyledElement">
+      <modelElement href="MoviesManagementFinal.uml#_5Vts4A_JEeyYCo3wDrP2bg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_6lgg0w_JEeyYCo3wDrP2bg" name="Annotations">
+      <modelElement href="MoviesManagementFinal.uml#_5VwJIA_JEeyYCo3wDrP2bg"/>
+    </stereotypes>
+    <visibility xmi:id="_6lgg1A_JEeyYCo3wDrP2bg" label="+"/>
+    <operations xmi:id="_6lgg1Q_JEeyYCo3wDrP2bg" name="main" staticOperation="true">
+      <modelElement href="MoviesManagementFinal.uml#_5VuT8A_JEeyYCo3wDrP2bg"/>
+      <stereotypes xmi:id="_6lgg1g_JEeyYCo3wDrP2bg" name="StyledElement">
+        <modelElement href="MoviesManagementFinal.uml#_5Vu7AA_JEeyYCo3wDrP2bg"/>
+      </stereotypes>
+      <visibility xmi:id="_6lgg1w_JEeyYCo3wDrP2bg" label="+"/>
+      <cardinality xmi:id="_6lgg2A_JEeyYCo3wDrP2bg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_6lgg2Q_JEeyYCo3wDrP2bg" name="args">
+        <modelElement href="MoviesManagementFinal.uml#_5VuT8Q_JEeyYCo3wDrP2bg"/>
+        <cardinality xmi:id="_6lgg2g_JEeyYCo3wDrP2bg" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_6lgg2w_JEeyYCo3wDrP2bg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_6lxmkA_JEeyYCo3wDrP2bg" name="MoviesController" associationsOut="_6lw_gA_JEeyYCo3wDrP2bg">
+    <modelElement href="MoviesManagementFinal.uml#_5VwwMQ_JEeyYCo3wDrP2bg"/>
+    <visualProperties xmi:id="_6lxmkQ_JEeyYCo3wDrP2bg" position="2980.0,1295.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_6lxmkg_JEeyYCo3wDrP2bg" name="LegacyStyledElement">
+      <modelElement href="MoviesManagementFinal.uml#_5Vx-UA_JEeyYCo3wDrP2bg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_6lxmkw_JEeyYCo3wDrP2bg" name="Annotations">
+      <modelElement href="MoviesManagementFinal.uml#_5V7vUA_JEeyYCo3wDrP2bg"/>
+    </stereotypes>
+    <visibility xmi:id="_6lxmlA_JEeyYCo3wDrP2bg" label="+"/>
+    <attributes xmi:id="_6lxmlQ_JEeyYCo3wDrP2bg" name="moviesRepository">
+      <modelElement href="MoviesManagementFinal.uml#_5nwfIA_JEeyYCo3wDrP2bg"/>
+      <stereotypes xmi:id="_6lxmlg_JEeyYCo3wDrP2bg" name="Annotations">
+        <modelElement href="MoviesManagementFinal.uml#_5nxGMA_JEeyYCo3wDrP2bg"/>
+      </stereotypes>
+      <visibility xmi:id="_6lxmlw_JEeyYCo3wDrP2bg" label="-"/>
+      <cardinality xmi:id="_6lxmmA_JEeyYCo3wDrP2bg" label="1" max="1" min="1"/>
+      <type xmi:id="_6lxmmQ_JEeyYCo3wDrP2bg" name="MoviesRepository">
+        <modelElement href="MoviesManagementFinal.uml#_5XrbwA_JEeyYCo3wDrP2bg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_6lxmmg_JEeyYCo3wDrP2bg" name="getAllMovies">
+      <modelElement href="MoviesManagementFinal.uml#_5VylYA_JEeyYCo3wDrP2bg"/>
+      <stereotypes xmi:id="_6lxmmw_JEeyYCo3wDrP2bg" name="Annotations">
+        <modelElement href="MoviesManagementFinal.uml#_5V1osA_JEeyYCo3wDrP2bg"/>
+      </stereotypes>
+      <visibility xmi:id="_6lxmnA_JEeyYCo3wDrP2bg" label="+"/>
+      <cardinality xmi:id="_6lxmnQ_JEeyYCo3wDrP2bg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_6lxmng_JEeyYCo3wDrP2bg">
+        <modelElement href="MoviesManagementFinal.uml#_5VzMcA_JEeyYCo3wDrP2bg"/>
+        <type xmi:id="_6lxmnw_JEeyYCo3wDrP2bg" name="Movies">
+          <modelElement href="MoviesManagementFinal.uml#_5XOIwA_JEeyYCo3wDrP2bg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_6lxmoA_JEeyYCo3wDrP2bg" name="createMovie">
+      <modelElement href="MoviesManagementFinal.uml#_5j6g8A_JEeyYCo3wDrP2bg"/>
+      <stereotypes xmi:id="_6lxmoQ_JEeyYCo3wDrP2bg" name="Annotations">
+        <modelElement href="MoviesManagementFinal.uml#_5j8WIg_JEeyYCo3wDrP2bg"/>
+      </stereotypes>
+      <visibility xmi:id="_6lxmog_JEeyYCo3wDrP2bg" label="+"/>
+      <cardinality xmi:id="_6lxmow_JEeyYCo3wDrP2bg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_6lxmpA_JEeyYCo3wDrP2bg">
+        <modelElement href="MoviesManagementFinal.uml#_5j7IAA_JEeyYCo3wDrP2bg"/>
+        <type xmi:id="_6lxmpQ_JEeyYCo3wDrP2bg" name="Movies">
+          <modelElement href="MoviesManagementFinal.uml#_5XOIwA_JEeyYCo3wDrP2bg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_6lxmpg_JEeyYCo3wDrP2bg" name="movie">
+        <modelElement href="MoviesManagementFinal.uml#_5j6g8Q_JEeyYCo3wDrP2bg"/>
+        <cardinality xmi:id="_6lxmpw_JEeyYCo3wDrP2bg" label="1" max="1" min="1"/>
+        <type xmi:id="_6lxmqA_JEeyYCo3wDrP2bg" name="Movies">
+          <modelElement href="MoviesManagementFinal.uml#_5XOIwA_JEeyYCo3wDrP2bg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_6lxmqQ_JEeyYCo3wDrP2bg" name="getMovieById">
+      <modelElement href="MoviesManagementFinal.uml#_5msIIQ_JEeyYCo3wDrP2bg"/>
+      <stereotypes xmi:id="_6lxmqg_JEeyYCo3wDrP2bg" name="Generics">
+        <modelElement href="MoviesManagementFinal.uml#_5m0D8A_JEeyYCo3wDrP2bg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_6lxmqw_JEeyYCo3wDrP2bg" name="Annotations">
+        <modelElement href="MoviesManagementFinal.uml#_5m2gMA_JEeyYCo3wDrP2bg"/>
+      </stereotypes>
+      <visibility xmi:id="_6lxmrA_JEeyYCo3wDrP2bg" label="+"/>
+      <cardinality xmi:id="_6lxmrQ_JEeyYCo3wDrP2bg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_6lxmrg_JEeyYCo3wDrP2bg">
+        <modelElement href="MoviesManagementFinal.uml#_5m0rAA_JEeyYCo3wDrP2bg"/>
+        <type xmi:id="_6lxmrw_JEeyYCo3wDrP2bg" name="ResponseEntity">
+          <modelElement href="MoviesManagementFinal.uml#_5hb0sA_JEeyYCo3wDrP2bg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_6lxmsA_JEeyYCo3wDrP2bg" name="id">
+        <modelElement href="MoviesManagementFinal.uml#_5msvMA_JEeyYCo3wDrP2bg"/>
+        <cardinality xmi:id="_6lxmsQ_JEeyYCo3wDrP2bg" label="1" max="1" min="1"/>
+        <type xmi:id="_6lxmsg_JEeyYCo3wDrP2bg" name="Long">
+          <modelElement href="MoviesManagementFinal.uml#_5mjlQQ_JEeyYCo3wDrP2bg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_6lxmsw_JEeyYCo3wDrP2bg" name="updateMovie">
+      <modelElement href="MoviesManagementFinal.uml#_5m3HQA_JEeyYCo3wDrP2bg"/>
+      <stereotypes xmi:id="_6lxmtA_JEeyYCo3wDrP2bg" name="Generics">
+        <modelElement href="MoviesManagementFinal.uml#_5m_DEA_JEeyYCo3wDrP2bg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_6lxmtQ_JEeyYCo3wDrP2bg" name="Annotations">
+        <modelElement href="MoviesManagementFinal.uml#_5nA4QQ_JEeyYCo3wDrP2bg"/>
+      </stereotypes>
+      <visibility xmi:id="_6lxmtg_JEeyYCo3wDrP2bg" label="+"/>
+      <cardinality xmi:id="_6lyNoA_JEeyYCo3wDrP2bg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_6lyNoQ_JEeyYCo3wDrP2bg">
+        <modelElement href="MoviesManagementFinal.uml#_5m_DEQ_JEeyYCo3wDrP2bg"/>
+        <type xmi:id="_6lyNog_JEeyYCo3wDrP2bg" name="ResponseEntity">
+          <modelElement href="MoviesManagementFinal.uml#_5hb0sA_JEeyYCo3wDrP2bg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_6lyNow_JEeyYCo3wDrP2bg" name="id">
+        <modelElement href="MoviesManagementFinal.uml#_5m3HQQ_JEeyYCo3wDrP2bg"/>
+        <cardinality xmi:id="_6lyNpA_JEeyYCo3wDrP2bg" label="1" max="1" min="1"/>
+        <type xmi:id="_6lyNpQ_JEeyYCo3wDrP2bg" name="Long">
+          <modelElement href="MoviesManagementFinal.uml#_5mjlQQ_JEeyYCo3wDrP2bg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_6lyNpg_JEeyYCo3wDrP2bg" name="movieDetails">
+        <modelElement href="MoviesManagementFinal.uml#_5m3uUA_JEeyYCo3wDrP2bg"/>
+        <cardinality xmi:id="_6lyNpw_JEeyYCo3wDrP2bg" label="1" max="1" min="1"/>
+        <type xmi:id="_6lyNqA_JEeyYCo3wDrP2bg" name="Movies">
+          <modelElement href="MoviesManagementFinal.uml#_5XOIwA_JEeyYCo3wDrP2bg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_6lyNqQ_JEeyYCo3wDrP2bg" name="deleteMovie">
+      <modelElement href="MoviesManagementFinal.uml#_5nBfUA_JEeyYCo3wDrP2bg"/>
+      <stereotypes xmi:id="_6lyNqg_JEeyYCo3wDrP2bg" name="Generics">
+        <modelElement href="MoviesManagementFinal.uml#_5nJbIA_JEeyYCo3wDrP2bg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_6lyNqw_JEeyYCo3wDrP2bg" name="Annotations">
+        <modelElement href="MoviesManagementFinal.uml#_5nKpQg_JEeyYCo3wDrP2bg"/>
+      </stereotypes>
+      <visibility xmi:id="_6lyNrA_JEeyYCo3wDrP2bg" label="+"/>
+      <cardinality xmi:id="_6lyNrQ_JEeyYCo3wDrP2bg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_6lyNrg_JEeyYCo3wDrP2bg">
+        <modelElement href="MoviesManagementFinal.uml#_5nJbIQ_JEeyYCo3wDrP2bg"/>
+        <type xmi:id="_6lyNrw_JEeyYCo3wDrP2bg" name="ResponseEntity">
+          <modelElement href="MoviesManagementFinal.uml#_5hb0sA_JEeyYCo3wDrP2bg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_6lyNsA_JEeyYCo3wDrP2bg" name="id">
+        <modelElement href="MoviesManagementFinal.uml#_5nCGYA_JEeyYCo3wDrP2bg"/>
+        <cardinality xmi:id="_6lyNsQ_JEeyYCo3wDrP2bg" label="1" max="1" min="1"/>
+        <type xmi:id="_6lyNsg_JEeyYCo3wDrP2bg" name="Long">
+          <modelElement href="MoviesManagementFinal.uml#_5mjlQQ_JEeyYCo3wDrP2bg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_6mEhgA_JEeyYCo3wDrP2bg" name="ResourceNotFoundException">
+    <modelElement href="MoviesManagementFinal.uml#_5WfI8A_JEeyYCo3wDrP2bg"/>
+    <visualProperties xmi:id="_6mEhgQ_JEeyYCo3wDrP2bg" position="2325.0,1190.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_6mEhgg_JEeyYCo3wDrP2bg" name="LegacyStyledElement">
+      <modelElement href="MoviesManagementFinal.uml#_5WgXEA_JEeyYCo3wDrP2bg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_6mEhgw_JEeyYCo3wDrP2bg" name="Annotations">
+      <modelElement href="MoviesManagementFinal.uml#_5XMTkA_JEeyYCo3wDrP2bg"/>
+    </stereotypes>
+    <visibility xmi:id="_6mEhhA_JEeyYCo3wDrP2bg" label="+"/>
+    <attributes xmi:id="_6mEhhQ_JEeyYCo3wDrP2bg" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="MoviesManagementFinal.uml#_5nxtQA_JEeyYCo3wDrP2bg"/>
+      <stereotypes xmi:id="_6mEhhg_JEeyYCo3wDrP2bg" name="StyledElement">
+        <modelElement href="MoviesManagementFinal.uml#_5nyUUQ_JEeyYCo3wDrP2bg"/>
+      </stereotypes>
+      <visibility xmi:id="_6mEhhw_JEeyYCo3wDrP2bg" label="-"/>
+      <cardinality xmi:id="_6mEhiA_JEeyYCo3wDrP2bg" label="1" max="1" min="1"/>
+      <type xmi:id="_6mEhiQ_JEeyYCo3wDrP2bg" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_6mEhig_JEeyYCo3wDrP2bg" name="ResourceNotFoundException">
+      <modelElement href="MoviesManagementFinal.uml#_5WhlMA_JEeyYCo3wDrP2bg"/>
+      <keywords xmi:id="_6mEhiw_JEeyYCo3wDrP2bg" keyword="create"/>
+      <stereotypes xmi:id="_6mEhjA_JEeyYCo3wDrP2bg" name="StyledElement">
+        <modelElement href="MoviesManagementFinal.uml#_5XLFcA_JEeyYCo3wDrP2bg"/>
+      </stereotypes>
+      <visibility xmi:id="_6mEhjQ_JEeyYCo3wDrP2bg" label="+"/>
+      <cardinality xmi:id="_6mEhjg_JEeyYCo3wDrP2bg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_6mEhjw_JEeyYCo3wDrP2bg">
+        <modelElement href="MoviesManagementFinal.uml#_5XJ3UQ_JEeyYCo3wDrP2bg"/>
+        <type xmi:id="_6mEhkA_JEeyYCo3wDrP2bg" name="ResourceNotFoundException">
+          <modelElement href="MoviesManagementFinal.uml#_5WfI8A_JEeyYCo3wDrP2bg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_6mEhkQ_JEeyYCo3wDrP2bg" name="message">
+        <modelElement href="MoviesManagementFinal.uml#_5WhlMQ_JEeyYCo3wDrP2bg"/>
+        <cardinality xmi:id="_6mEhkg_JEeyYCo3wDrP2bg" label="1" max="1" min="1"/>
+        <type xmi:id="_6mEhkw_JEeyYCo3wDrP2bg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_6mQHsA_JEeyYCo3wDrP2bg" name="Movies">
+    <modelElement href="MoviesManagementFinal.uml#_5XOIwA_JEeyYCo3wDrP2bg"/>
+    <visualProperties xmi:id="_6mQHsQ_JEeyYCo3wDrP2bg" position="2980.0,995.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_6mQHsg_JEeyYCo3wDrP2bg" name="Table">
+      <modelElement href="MoviesManagementFinal.uml#_5XXSsA_JEeyYCo3wDrP2bg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_6mQHsw_JEeyYCo3wDrP2bg" name="JPA1StyledElement">
+      <modelElement href="MoviesManagementFinal.uml#_5XYg0A_JEeyYCo3wDrP2bg"/>
+    </stereotypes>
+    <visibility xmi:id="_6mQHtA_JEeyYCo3wDrP2bg" label="+"/>
+    <attributes xmi:id="_6mQHtQ_JEeyYCo3wDrP2bg" name="id">
+      <modelElement href="MoviesManagementFinal.uml#_5ny7YA_JEeyYCo3wDrP2bg"/>
+      <stereotypes xmi:id="_6mQHtg_JEeyYCo3wDrP2bg" name="PrimaryKey">
+        <modelElement href="MoviesManagementFinal.uml#_5ny7YQ_JEeyYCo3wDrP2bg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_6mQHtw_JEeyYCo3wDrP2bg" name="GeneratedValueMapping">
+        <modelElement href="MoviesManagementFinal.uml#_5nzicA_JEeyYCo3wDrP2bg"/>
+      </stereotypes>
+      <visibility xmi:id="_6mQHuA_JEeyYCo3wDrP2bg" label="+"/>
+      <cardinality xmi:id="_6mQHuQ_JEeyYCo3wDrP2bg" label="1" max="1" min="1"/>
+      <type xmi:id="_6mQHug_JEeyYCo3wDrP2bg" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6mQHuw_JEeyYCo3wDrP2bg" name="title">
+      <modelElement href="MoviesManagementFinal.uml#_5n1-sA_JEeyYCo3wDrP2bg"/>
+      <stereotypes xmi:id="_6mQHvA_JEeyYCo3wDrP2bg" name="Column">
+        <modelElement href="MoviesManagementFinal.uml#_5n9TcA_JEeyYCo3wDrP2bg"/>
+      </stereotypes>
+      <visibility xmi:id="_6mQHvQ_JEeyYCo3wDrP2bg" label="+"/>
+      <cardinality xmi:id="_6mQHvg_JEeyYCo3wDrP2bg" label="1" max="1" min="1"/>
+      <type xmi:id="_6mQHvw_JEeyYCo3wDrP2bg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6mQHwA_JEeyYCo3wDrP2bg" name="director">
+      <modelElement href="MoviesManagementFinal.uml#_5n-hkA_JEeyYCo3wDrP2bg"/>
+      <stereotypes xmi:id="_6mQHwQ_JEeyYCo3wDrP2bg" name="Column">
+        <modelElement href="MoviesManagementFinal.uml#_5oF2UA_JEeyYCo3wDrP2bg"/>
+      </stereotypes>
+      <visibility xmi:id="_6mQHwg_JEeyYCo3wDrP2bg" label="+"/>
+      <cardinality xmi:id="_6mQHww_JEeyYCo3wDrP2bg" label="1" max="1" min="1"/>
+      <type xmi:id="_6mQHxA_JEeyYCo3wDrP2bg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6mQHxQ_JEeyYCo3wDrP2bg" name="genre">
+      <modelElement href="MoviesManagementFinal.uml#_5oHEcA_JEeyYCo3wDrP2bg"/>
+      <stereotypes xmi:id="_6mQHxg_JEeyYCo3wDrP2bg" name="Column">
+        <modelElement href="MoviesManagementFinal.uml#_5oOZMA_JEeyYCo3wDrP2bg"/>
+      </stereotypes>
+      <visibility xmi:id="_6mQHxw_JEeyYCo3wDrP2bg" label="+"/>
+      <cardinality xmi:id="_6mQHyA_JEeyYCo3wDrP2bg" label="1" max="1" min="1"/>
+      <type xmi:id="_6mQHyQ_JEeyYCo3wDrP2bg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_6mQHyg_JEeyYCo3wDrP2bg" name="Movies">
+      <modelElement href="MoviesManagementFinal.uml#_5XbkIA_JEeyYCo3wDrP2bg"/>
+      <keywords xmi:id="_6mQHyw_JEeyYCo3wDrP2bg" keyword="create"/>
+      <stereotypes xmi:id="_6mQHzA_JEeyYCo3wDrP2bg" name="LegacyStyledElement">
+        <modelElement href="MoviesManagementFinal.uml#_5XcyQA_JEeyYCo3wDrP2bg"/>
+      </stereotypes>
+      <visibility xmi:id="_6mQHzQ_JEeyYCo3wDrP2bg" label="+"/>
+      <cardinality xmi:id="_6mQHzg_JEeyYCo3wDrP2bg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_6mQHzw_JEeyYCo3wDrP2bg">
+        <modelElement href="MoviesManagementFinal.uml#_5XcyQQ_JEeyYCo3wDrP2bg"/>
+        <type xmi:id="_6mQH0A_JEeyYCo3wDrP2bg" name="Movies">
+          <modelElement href="MoviesManagementFinal.uml#_5XOIwA_JEeyYCo3wDrP2bg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_6mQuwA_JEeyYCo3wDrP2bg" name="Movies">
+      <modelElement href="MoviesManagementFinal.uml#_5Xf1kA_JEeyYCo3wDrP2bg"/>
+      <keywords xmi:id="_6mQuwQ_JEeyYCo3wDrP2bg" keyword="create"/>
+      <stereotypes xmi:id="_6mQuwg_JEeyYCo3wDrP2bg" name="StyledElement">
+        <modelElement href="MoviesManagementFinal.uml#_5XhqwA_JEeyYCo3wDrP2bg"/>
+      </stereotypes>
+      <visibility xmi:id="_6mQuww_JEeyYCo3wDrP2bg" label="+"/>
+      <cardinality xmi:id="_6mQuxA_JEeyYCo3wDrP2bg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_6mQuxQ_JEeyYCo3wDrP2bg">
+        <modelElement href="MoviesManagementFinal.uml#_5XhDsg_JEeyYCo3wDrP2bg"/>
+        <type xmi:id="_6mQuxg_JEeyYCo3wDrP2bg" name="Movies">
+          <modelElement href="MoviesManagementFinal.uml#_5XOIwA_JEeyYCo3wDrP2bg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_6mQuxw_JEeyYCo3wDrP2bg" name="id">
+        <modelElement href="MoviesManagementFinal.uml#_5XgcoA_JEeyYCo3wDrP2bg"/>
+        <cardinality xmi:id="_6mQuyA_JEeyYCo3wDrP2bg" label="1" max="1" min="1"/>
+        <type xmi:id="_6mQuyQ_JEeyYCo3wDrP2bg" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_6mQuyg_JEeyYCo3wDrP2bg" name="title">
+        <modelElement href="MoviesManagementFinal.uml#_5XgcoQ_JEeyYCo3wDrP2bg"/>
+        <cardinality xmi:id="_6mQuyw_JEeyYCo3wDrP2bg" label="1" max="1" min="1"/>
+        <type xmi:id="_6mQuzA_JEeyYCo3wDrP2bg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_6mQuzQ_JEeyYCo3wDrP2bg" name="director">
+        <modelElement href="MoviesManagementFinal.uml#_5Xgcog_JEeyYCo3wDrP2bg"/>
+        <cardinality xmi:id="_6mQuzg_JEeyYCo3wDrP2bg" label="1" max="1" min="1"/>
+        <type xmi:id="_6mQuzw_JEeyYCo3wDrP2bg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_6mQu0A_JEeyYCo3wDrP2bg" name="genre">
+        <modelElement href="MoviesManagementFinal.uml#_5Xgcow_JEeyYCo3wDrP2bg"/>
+        <cardinality xmi:id="_6mQu0Q_JEeyYCo3wDrP2bg" label="1" max="1" min="1"/>
+        <type xmi:id="_6mQu0g_JEeyYCo3wDrP2bg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_6mibkA_JEeyYCo3wDrP2bg" name="MoviesRepository" associationsIn="_6lw_gA_JEeyYCo3wDrP2bg">
+    <modelElement href="MoviesManagementFinal.uml#_5XrbwA_JEeyYCo3wDrP2bg"/>
+    <visualProperties xmi:id="_6mibkQ_JEeyYCo3wDrP2bg" position="3570.0,1165.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_6mibkg_JEeyYCo3wDrP2bg" name="LegacyStyledElement">
+      <modelElement href="MoviesManagementFinal.uml#_5Xsp4A_JEeyYCo3wDrP2bg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_6mibkw_JEeyYCo3wDrP2bg" name="Annotations">
+      <modelElement href="MoviesManagementFinal.uml#_5XtQ8A_JEeyYCo3wDrP2bg"/>
+    </stereotypes>
+    <visibility xmi:id="_6miblA_JEeyYCo3wDrP2bg" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_6nBjwA_JEeyYCo3wDrP2bg" name="MoviesManagementFinalApplicationTests">
+    <modelElement href="MoviesManagementFinal.uml#_5XufEA_JEeyYCo3wDrP2bg"/>
+    <visualProperties xmi:id="_6nBjwQ_JEeyYCo3wDrP2bg" position="2600.0,910.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_6nBjwg_JEeyYCo3wDrP2bg" name="LegacyStyledElement">
+      <modelElement href="MoviesManagementFinal.uml#_5XvtMA_JEeyYCo3wDrP2bg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_6nBjww_JEeyYCo3wDrP2bg" name="Annotations">
+      <modelElement href="MoviesManagementFinal.uml#_5XxiYA_JEeyYCo3wDrP2bg"/>
+    </stereotypes>
+    <visibility xmi:id="_6nBjxA_JEeyYCo3wDrP2bg" label="~"/>
+    <operations xmi:id="_6nCK0A_JEeyYCo3wDrP2bg" name="contextLoads">
+      <modelElement href="MoviesManagementFinal.uml#_5XvtMQ_JEeyYCo3wDrP2bg"/>
+      <stereotypes xmi:id="_6nCK0Q_JEeyYCo3wDrP2bg" name="Annotations">
+        <modelElement href="MoviesManagementFinal.uml#_5Xw7UA_JEeyYCo3wDrP2bg"/>
+      </stereotypes>
+      <visibility xmi:id="_6nCK0g_JEeyYCo3wDrP2bg" label="~"/>
+      <cardinality xmi:id="_6nCK0w_JEeyYCo3wDrP2bg" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
